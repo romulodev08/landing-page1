@@ -2,11 +2,12 @@ import "../estilo/PgInicial.css"
 export default function PgInicial(props) {
     return (
         <div id="pginicial">
-            <section className="introduçãoDaPáginaInicial">
+            <section className="introduçãoDaPáginaInicial seçãoDaPgInicial">
                 <h2>Subtítulo</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus magnam, dolor, minima neque corporis omnis quaerat enim, voluptas minus magni id blanditiis sequi. Totam suscipit modi dolorem saepe. Eum, autem.</p>
+                <button id="botão">Acessar</button>
             </section>
-            <section className="slide">
+            <section className="slideshow seçãoDaPgInicial">
                 <input type="radio" name="slideRadioButton" id="slideRadioButton1" />
                 <input type="radio" name="slideRadioButton" id="slideRadioButton2" />
                 <input type="radio" name="slideRadioButton" id="slideRadioButton3" />
@@ -31,10 +32,10 @@ export default function PgInicial(props) {
                     </div>
                 </div>
                 <div className="navigation">
-                    <label htmlFor="slideRadioButton1">1</label>
-                    <label htmlFor="slideRadioButton2">2</label>
-                    <label htmlFor="slideRadioButton3">3</label>
-                    <label htmlFor="slideRadioButton4">4</label>
+                    <label htmlFor="slideRadioButton1" className="baraSlide"></label>
+                    <label htmlFor="slideRadioButton2" className="baraSlide"></label>
+                    <label htmlFor="slideRadioButton3" className="baraSlide"></label>
+                    <label htmlFor="slideRadioButton4" className="baraSlide"></label>
                 </div>
             </section>
         </div>

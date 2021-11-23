@@ -1,9 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital@1&family=Old+Standard+TT:ital@1&display=swap');
+/* font-family: 'Old Standard TT', serif; */
+
 * {
     margin: 0;
     padding: 0;
 }
 #cabeçalhoPrincipal {
-    background-color: #908B6D;
+    background-color: #726d54;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    padding: 5px 10px;
+    min-height: 38px;
+    align-items: center;
+}
+#cabeçalhoPrincipal h1 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 20px;
+    color: rgb(250, 250, 250);
+}
+#cabeçalhoPrincipal nav .Link {
+    position: relative;
+    top: 4px;
+    padding: 3px 6px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#cabeçalhoPrincipal nav .Link:hover {
+    background-color: white;
+    color: #726d54;
 }
