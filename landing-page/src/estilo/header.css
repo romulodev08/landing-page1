@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#cabeçalhoPrincipal {
+    background-color: #908B6D;
+    display: flex;
+    justify-content: space-between;
+}
