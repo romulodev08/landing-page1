@@ -8,10 +8,10 @@ export default function PgInicial(props) {
                 <button id="botão">Acessar</button>
             </section>
             <section className="slideshow seçãoDaPgInicial">
-                <input type="radio" name="slideRadioButton" id="slideRadioButton1" />
-                <input type="radio" name="slideRadioButton" id="slideRadioButton2" />
-                <input type="radio" name="slideRadioButton" id="slideRadioButton3" />
-                <input type="radio" name="slideRadioButton" id="slideRadioButton4" />
+                <input type="radio" name="slideRadioButton" id="slideRadioButton1" checked="checked" />
+                <input type="radio" name="slideRadioButton" id="slideRadioButton2" checked="checked" />
+                <input type="radio" name="slideRadioButton" id="slideRadioButton3" checked="checked" />
+                <input type="radio" name="slideRadioButton" id="slideRadioButton4" checked="checked" />
 
                 <div className="slider">
                     <div className="slide slide1">
