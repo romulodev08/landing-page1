@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containerForm {
+    width: 98%;
+    margin: auto;
+    padding-top: 25px;
+}
+
+#formCadastro {
+    max-width: 500px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    border: solid 2px #e4d68a;
+    box-shadow:  5px 6px 14px 0px black; ;
+}
+#formCadastro > div {
+    margin-bottom: 5px;
+    margin-left: 14px;
+}
+#formCadastro label {
+    font: normal 20px Times, Serif;
+}
+#formCadastro input {
+    font: normal 20px Times, Serif;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #e4d68a;
+    padding: 0 7px;
+    margin-right: 9px;
+    color: rgb(46, 46, 46);
+}
+#formCadastro input[type="radio"]:checked::after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #e4d68a;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid rgb(0, 0, 0);
+}
+#formCadastro input[type="checkbox"]:checked::after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #e4d68a;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid rgb(255, 255, 255);
+}

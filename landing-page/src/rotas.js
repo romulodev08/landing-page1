@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Header from "./cabeçalho.jsx"
 
 import PgInicial from "./páginas/pginicial.jsx";
-import Contato from "./páginas/contato.jsx"
+import Cadastro from "./páginas/cadastro.jsx"
 
 
 function Rotas() {
@@ -14,7 +14,7 @@ function Rotas() {
         <Header />
         <Routes>
           <Route path="/" element={<PgInicial />} />
-          <Route path="contato" element={<Contato />} />
+          <Route path="cadastro" element={<Cadastro />} />
         </Routes>
       </Router>
     </div>

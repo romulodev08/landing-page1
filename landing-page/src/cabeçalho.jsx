@@ -10,7 +10,7 @@ export default class Header extends Component {
                 <h1 className="cabeçalhoPrincipalItem">Título da página</h1>
                 <nav className="cabeçalhoPrincipalItem">
                     <Link className="Link" to="/" >Início</Link>
-                    <Link className="Link" to="/contato" >Contato</Link>
+                    <Link className="Link" to="/cadastro" >Cadastro</Link>
                 </nav>
             </header>
         )
